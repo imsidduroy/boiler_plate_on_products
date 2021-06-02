@@ -4,7 +4,7 @@ import { ResponseBody } from '../helpers'
 import { HealthModel } from '../models'
 
 const HealthController = {
-  get
+  get,
 }
 
 export default HealthController

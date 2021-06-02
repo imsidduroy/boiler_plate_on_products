@@ -25,7 +25,7 @@ const {
 } = process.env
 
 const REQUIRED_CONFIG = [
-  'SERVICE_NAME',
+  // 'SERVICE_NAME',
   // 'OAUTH_ENDPOINT',
   // 'AAUTH_ENDPOINT',
   // 'AAUTH_API_KEY'
@@ -39,7 +39,7 @@ REQUIRED_CONFIG.forEach(function (key) {
 })
 
 const EXPS_CONFIG = {
-  SERVICE_NAME,
+  // SERVICE_NAME,
   ERROR_NAME,
 
   OAUTH_POOL_ID,
