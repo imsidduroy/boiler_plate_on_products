@@ -17,14 +17,12 @@ const corsOptions = {
   methods: ALLOW_CORS_METHODS
 }
 
-dotenv.config()
 // Middleware Initializations
 app.use(cors(corsOptions))
+dotenv.config()
 
 app.use(Express.json());
 app.use(Express.urlencoded({ extended: true }));
-// app.use(bodyParser.json({ limit: BODY_LIMIT }))
-// app.use(bodyParser.urlencoded({ limit: BODY_LIMIT, extended: true }))
 
 app.use(helmet())
 
